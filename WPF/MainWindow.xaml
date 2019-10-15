@@ -11,7 +11,10 @@
         <local:ViewModel/>
     </Window.DataContext>
     <Grid>
-        <syncfusion:SfDataGrid  x:Name="dataGrid" AllowSorting="False" ItemsSource="{Binding Orders}">
+        <syncfusion:SfDataGrid  x:Name="dataGrid" 
+                                AllowSorting="False"
+                                ShowSortNumbers="True"
+                                ItemsSource="{Binding Orders}">
             <syncfusion:SfDataGrid.Columns>
                 <syncfusion:GridTextColumn MappingName="OrderID" />
                 <syncfusion:GridTextColumn MappingName="CustomerID" AllowSorting="True"/>

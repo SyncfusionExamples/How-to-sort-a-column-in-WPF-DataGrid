@@ -3,7 +3,10 @@
 This example illustrates how to sort a column in WPF DataGrid by enabling AllowSorting property for SfDataGrid or corresponding column
 
 ```xml
-        <syncfusion:SfDataGrid  x:Name="dataGrid" AllowSorting="False" ItemsSource="{Binding Orders}">
+        <syncfusion:SfDataGrid  x:Name="dataGrid" 
+                        AllowSorting="False"
+                        ShowSortNumbers="True"
+                        ItemsSource="{Binding Orders}">
             <syncfusion:SfDataGrid.Columns>
                 <syncfusion:GridTextColumn MappingName="OrderID" />
                 <syncfusion:GridTextColumn MappingName="CustomerID" AllowSorting="True"/>
