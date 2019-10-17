@@ -12,16 +12,10 @@
     </Window.DataContext>
     <Grid>
         <syncfusion:SfDataGrid  x:Name="dataGrid" 
-                                AllowSorting="False"
+                                AllowSorting="True"
                                 ShowSortNumbers="True"
+                                AllowTriStateSorting="True"
                                 ItemsSource="{Binding Orders}">
-            <syncfusion:SfDataGrid.Columns>
-                <syncfusion:GridTextColumn MappingName="OrderID" />
-                <syncfusion:GridTextColumn MappingName="CustomerID" AllowSorting="True"/>
-                <syncfusion:GridTextColumn MappingName="CustomerName" AllowSorting="True"/>
-                <syncfusion:GridTextColumn MappingName="Country"/>
-                <syncfusion:GridTextColumn MappingName="ShipCity" AllowSorting="True"/>
-            </syncfusion:SfDataGrid.Columns>
         </syncfusion:SfDataGrid>
     </Grid>
 </Window>
