@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,18 +16,21 @@ namespace SfDataGrid_Demo
         string customerName;
         string shippingCity;
 
+        [Display (Name = "Order ID")]
         public int OrderID
         {
             get { return orderID; }
             set { orderID = value; }
         }
 
+        [Display(Name = "Customer ID")]
         public string CustomerID
         {
             get { return customerId; }
             set { customerId = value; }
         }
 
+        [Display(Name = "Customer Name")]
         public string CustomerName
         {
             get { return customerName; }
@@ -39,6 +43,7 @@ namespace SfDataGrid_Demo
             set { country = value; }
         }
 
+        [Display(Name = "Ship City")]
         public string ShipCity
         {
             get { return shippingCity; }
