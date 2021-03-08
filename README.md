@@ -3,7 +3,7 @@
 
 This example illustrates how to sort a column in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) by enabling AllowSorting property for SfDataGrid or corresponding column
 
-[WPF DataGrid]((https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) allows you to sort the data against one or more columns either in ascending or descending order. The sorting can be performed by clicking a column header. You can enable/disable the sorting for all the columns in DataGrid by using [DataGrid.AllowSorting](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.SfGridBase~AllowSorting.html) property. Moreover, you can also enable/disable the sorting for a particular column by using [Column.AllowSorting](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridColumnBase~AllowSorting.html).
+[WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) allows you to sort the data against one or more columns either in ascending or descending order. The sorting can be performed by clicking a column header. You can enable/disable the sorting for all the columns in DataGrid by using [DataGrid.AllowSorting](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.SfGridBase~AllowSorting.html) property. Moreover, you can also enable/disable the sorting for a particular column by using [Column.AllowSorting](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridColumnBase~AllowSorting.html).
 
 ```xml
 <syncfusion:SfDataGrid  x:Name="dataGrid" 
