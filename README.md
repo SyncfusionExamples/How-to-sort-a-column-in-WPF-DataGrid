@@ -1,4 +1,4 @@
-# How to sort a column in WPF DataGrid
+# How to sort a column in WPF DataGrid (SfDataGrid)?
 ## About the sample
 
 This example illustrates how to sort a column in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) by enabling AllowSorting property for SfDataGrid or corresponding column
