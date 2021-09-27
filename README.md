@@ -72,5 +72,7 @@ private void DataGrid_SortColumnsChanged(object sender, Syncfusion.UI.Xaml.Grid.
 }
 ```
 
+KB article - [How to sort a column in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/10797/how-to-sort-a-column-in-wpf-datagrid-sfdatagrid)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
